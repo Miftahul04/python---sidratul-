@@ -7,7 +7,7 @@ print("I brush my teeth at 7:10 am")
 # Step 3: Having breakfast
 print("I eat breakfast at 7:30 am")
 # Step 4: Head out
-print(""I go to school at 8:00 am)
+print("I go to school at 8:00 am")
 # Step 5: Unpack and unwind
 print("I come back from school at 2:00 pm")
 # Step 6: Having lunch
