@@ -13,3 +13,16 @@ elif day in ("monday","tuesday","wednesday"):
     print("Regular school day. Stay focused.")
 else:
     print("Check your spelling And try again.")
+
+if weather == "sunny" and homework == "yes":
+    print("After school: Head to the park - great weather and homework is done.")
+if weather == "rainy" or weather == "cloudy":
+    print("Weather tip: Pack your umbrella. you may get wet.")
+if not (homework=="yes"):
+    print("Homework not done. Please complete your homework.")
+if weather == "rainy" and not (homework=="yes"):
+    print("Stay in, finish your homework and then watch your favourite show.")
+elif weather== "sunny" and homework=="yes" and not (day in("Friday" or "Saturday")):
+    print("All set for a great school day. You are prepared.")
+else:
+    print("Take it one step at a time. You have got this.")
